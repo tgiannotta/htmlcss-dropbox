@@ -6,46 +6,78 @@
     /* TEST */
     /* border: 2px solid black; */
     color: black;
-    font-weight: bolder;
+   /*  font-weight: bolder; */
 }
 /* COMMON */
 body{
     font-family: 'Open Sans',sans-serif;
-    /* TEST */
-    background-color: saddlebrown;
 }
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+.col{
+    float: left;
+}
 /* HEADER */
 header{
     height: 100px;
     width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    
 }    
 .contenitore-header{
     color: red;
     height: 100%;
 }
 /* CARATTERISTICHE COLONNE HEADER */
-.col{
-    float: left;
-}
 .col-logo{
     width: 10%;
-    background-color: white;
     height: 100%;
+    line-height: 100px;
+    text-align: center;
 }
 .col-menu-sx{
-    width: 45%;
-    background-color: white;
+    width: 40%;
     height: 100%;
 }
 .col-menu-dx{
-    width: 45%;
-    background-color: white;
+    width: 40%;
     height: 100%;
+    text-align: right;
+}
+.col-header-btn{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 40px;
+}
+.col-logo img{  
+    vertical-align: middle;
+}
+.contenitore-header a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 100px;
+}
+.col-header-btn a{
+    background-color: #0061ff;
+    color: white;
+    padding: 12px 24px;
+}
+.col-header-btn a:hover{
+    background-color: #3c84ff;
+}
+ul li:hover{
+    border-bottom: 2px solid black;
 }
 /* JUMBOTRON */
 .contenitore-jumbo{
