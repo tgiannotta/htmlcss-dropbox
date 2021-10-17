@@ -43,6 +43,9 @@ body{
 .mrg-bot-20{
     margin-bottom: 20px;
 }
+.mrg-bot-50{
+    margin-bottom: 50px;
+}
 .pad-bot-20{
     padding-bottom: 20px;
 }
@@ -273,18 +276,21 @@ header a{
     padding: 10px 30px;
 } 
 /* SEZIONE OPERAZIONI */
+.col-operazioni h2{
+    font-size: 40px;
+}
+.col-operazioni h3{
+    font-size: 30px;
+}
+.col-op-1 span{
+    text-decoration: underline;
+}
  .col-op-1{
      width:calc(100% / 3);
-     height: 200px;
-     background-color: darkcyan;
 }.col-op-2{
     width: calc(100% / 3);
-    height: 200px;
-    background-color: darkcyan;
 }.col-op-3{
     width: calc(100% / 3);
-    height: 200px;
-    background-color: darkcyan;
 }
 /* SEZIONE SPONSORS */
 .contenitore-sponsor{
