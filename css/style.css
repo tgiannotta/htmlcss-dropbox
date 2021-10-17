@@ -20,6 +20,18 @@ body{
 .col{
     float: left;
 }
+.bg-sfondo{
+    background-color: #b4d0e7;
+}
+.btn-blue{
+    background-color: #0061ff;
+    color: white;
+    padding: 12px 24px;
+}
+.btn-blue:hover{
+    background-color: #3c84ff;
+}
+
 /* HEADER */
 header{
     height: 100px;
@@ -32,8 +44,7 @@ header{
     
 }    
 .contenitore-header{
-    color: red;
-    height: 100%;
+   height: 100%;
 }
 /* CARATTERISTICHE COLONNE HEADER */
 .col-logo{
@@ -63,38 +74,52 @@ ul li{
 .col-logo img{  
     vertical-align: middle;
 }
-.contenitore-header a{
+.contenitore-header a, .contenitore-jumbo a{
     text-decoration: none;
     font-size: 20px;
     line-height: 100px;
 }
-.col-header-btn a{
-    background-color: #0061ff;
-    color: white;
-    padding: 12px 24px;
-}
-.col-header-btn a:hover{
-    background-color: #3c84ff;
-}
+/* HOVER-HEADER */
 ul li:hover{
     border-bottom: 2px solid black;
 }
 /* JUMBOTRON */
 .contenitore-jumbo{
-    width: 100%;
-    height: 250px;
-    background-color: blanchedalmond;
+    width: 85%;
+    margin: auto;
+    padding-top: 80px;
+    height: 820px;
+    margin-bottom: 200px;
+   /*  text-align: center; */
+  
+}
+.contenitore-jumbo h1{
+    font-size: 95px;
+    padding-bottom: 50px;
 }
 .col-trial{
-    width: 50%;
-    height: 200px;
-    background-color: blueviolet;
+    width: 30%;
 }
+.col-trial p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.arrow-down{
+    font-size: 50px;
+    padding-top: 30px;
+    display: block;
+}
+
 .col-jumbo{
-    width: 50%;
-    height: 200px;
-    background-color: brown;
+    width: 70%;
+    position: relative;
 }
+.col-jumbo img{
+    width: 1000px;
+    position: absolute;
+    transform: translate(125px, -25px);
+}
+
 /* MAIN */
 .contenitore-main{
     width: 70%;
