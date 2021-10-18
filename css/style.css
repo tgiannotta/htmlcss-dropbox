@@ -64,6 +64,33 @@ body{
 img{
     width: 100%;
 }
+.bg-light-green{
+    background-color: #a2d39b;
+}
+.bg-bordoux{
+    background-color: #61082b;
+}
+.bg-light-blue{
+    background-color: #0093ce;
+}
+.bg-rosso-acceso{
+    background-color: #ff1c1c;
+}
+.bg-rosso-spento{
+    background-color: #d5001f;
+}
+.bg-celestino{
+    background-color: #b4d0e7;
+}
+.bg-blu{
+    background-color: #0d2481;
+}
+.bg-giallino{
+    background-color: #ffd830;
+}
+.bordo-light-green{
+    border: 10px solid #d0e9cd;
+}
 /* HEADER */
 header{
     height: 100px;
@@ -215,7 +242,7 @@ header a{
     color: #707f8b;
 }
 .line{
-    width: 20%;
+    width: 50px;
     height: 2px;
     background-color: lightgray;
 }
@@ -299,34 +326,54 @@ header a{
     width: calc(100% / 3);
 }
 /* SEZIONE SPONSORS */
+.titolo-sponsors h2{
+    margin-top: 200px;
+    font-size: 40px;
+}
+.titolo-sponsors a{
+    font-size: 20px;
+}
 .contenitore-sponsor{
     width: 100%;
-    height: 300px;
-    background-color: blue;
 }
+
 .col-sponsor-sx{
     width: 30%;
-    height: 300px;
-    background-color: aquamarine;
+    height: 400px;
+    
 }.col-sponsor-text{
     width: 40%;
-    height: 300px;
-    background-color: aquamarine;
+    padding: 40px 40px;
 }.col-sponsor-dx{
     width: 30%;
-    height: 300px;
-    background-color: aquamarine;
+    height: 400px;
 }
 .col-sponsor-sinistra{
     width: 50%;
-    height: 300px;
-    background-color: blueviolet;
+    height: 200px;
+    position: relative;
 }
 .col-sponsor-destra{
     width: 50%;
-    height: 300px;
-    background-color: crimson;
+    height: 200px;
+    position: relative;
 }
+.col-sponsors img{
+    filter: invert(1);
+    width: 150px;
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.col-sponsor-text img{
+    filter: none;
+    width: 150px;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+}    
 /* SEZIONE BUSINESS */
 .contenitore-business{
     width: 100%;
