@@ -111,7 +111,7 @@ header a{
 .contenitore-header a, .contenitore-jumbo a{
     text-decoration: none;
     font-size: 20px;
-    line-height: 100px;
+    line-height: 98px;
 }
 /* HOVER-HEADER */
 .lista ul li:hover{
@@ -224,6 +224,12 @@ header a{
 }
 .lista-piano .no-elenco li i{
     color: #0061ff;
+}
+.item-benefit{
+    padding-left: 20px;
+}
+.lista-benefit .no-elenco li i{
+    margin-left: -40px;
 }
 /*CONTATTI */
 .contatti{
