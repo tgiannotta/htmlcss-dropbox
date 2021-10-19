@@ -34,6 +34,9 @@ body{
 .pd-right-30{
     padding-right: 30px;
 }
+.pad-bot-50{
+    padding-bottom: 50px;
+}
 .pad-left-20{
     padding-left: 20px;
 }
@@ -45,6 +48,12 @@ body{
 }
 .mrg-bot-50{
     margin-bottom: 50px;
+}
+.pad-bot-5{
+    padding-bottom: 5px;
+}
+.pad-top-50{
+    padding-top: 50px;
 }
 .pad-bot-20{
     padding-bottom: 20px;
@@ -243,7 +252,7 @@ header a{
 }
 .line{
     width: 50px;
-    height: 2px;
+    height: 1px;
     background-color: lightgray;
 }
 .lista-piano .no-elenco li{
@@ -402,33 +411,58 @@ header a{
 }    
 /* FREQUENTLY QUESTION */
 .contenitore-domande{
-    width: 100%;
-    height: 180px;
-    background-color: yellow;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
 }
-.col-question-sx{
-    width: 90%;
-    height: 30px;
-    background-color: tomato;
+.long-line{
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgray;
 }
-.col-arrow{
-    width: 10%;
-    height: 30px;
-    background-color: turquoise;
+.contenitore-domande h2{
+    font-size: 40px;
 }
+.row-ask .ask-text{
+    font-size: 18px;
+    font-weight: 700;
+}
+.row-ask i{
+    margin-left: 40%;
+    font-size: 30px;
+}    
 /* FOOTER */
 footer{
     width: 100%;
-    height: 300px;
-    background-color: violet;
+    color: white;
+    background-color: black;
+}
+.contenitore-footer{
+    width: 85%;
+    margin: auto;
 }
 .link-list{
     width: 100%;
-    height: 300px;
-    background-color: red;
 }
 .col-lista{
     width: 20%;
-    height: 300px;
-    background-color: lime;
+}
+.col-lista ul li{
+    list-style: none;
+}
+.col-lista ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.capo-lista{
+    font-size: 30px;
+    font-weight: 700;
+}
+.white-line{
+    width: 10%;
+    height: 1px;
+    background-color: white;
+}
+.lingua{
+    color: #656565;
 }
